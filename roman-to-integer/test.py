@@ -1,7 +1,7 @@
 import unittest
 
 from pydantic import IntegerError
-from solution import Solution
+from roman_to_integer import Solution
 
 class TestSolution(unittest.TestCase):
 
