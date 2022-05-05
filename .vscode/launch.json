@@ -11,6 +11,14 @@
             "program": "./two-sum/test.py",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "Roman to Integer",
+            "type": "python",
+            "request": "launch",
+            "program": "./roman-to-integer/test.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }
