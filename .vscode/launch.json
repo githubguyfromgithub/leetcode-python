@@ -5,18 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Two Sum",
+            "name": "Test Current Folder",
             "type": "python",
             "request": "launch",
-            "program": "./two-sum/test.py",
-            "console": "integratedTerminal",
-            "justMyCode": true
-        },
-        {
-            "name": "Roman to Integer",
-            "type": "python",
-            "request": "launch",
-            "program": "./roman-to-integer/test.py",
+            "program": "./${relativeFileDirname}/test.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }
