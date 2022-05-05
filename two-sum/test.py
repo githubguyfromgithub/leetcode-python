@@ -18,8 +18,7 @@ class TestSolution(unittest.TestCase):
         result = s.twoSum([3, 3], 6)
         self.assertEqual([0, 1], result)
 
-
-
-
-
-unittest.main()
+try:
+    unittest.main()
+except SystemExit:
+    print('The test exited with a SystemExit')
