@@ -15,4 +15,7 @@ class TestSolution(unittest.TestCase):
         self.run_test(["dog","racecar","car"], "")
 
 
-unittest.main()
+try:
+    unittest.main()
+except SystemExit:
+    None

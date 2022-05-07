@@ -19,4 +19,7 @@ class TestSolution(unittest.TestCase):
     def test_three(self):
         self.run_test("MCMXCIV", 1994)
 
-unittest.main()
+try:
+    unittest.main()
+except SystemExit:
+    None

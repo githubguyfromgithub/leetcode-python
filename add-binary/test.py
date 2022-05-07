@@ -17,4 +17,4 @@ class TestSolution(unittest.TestCase):
 try:
     unittest.main()
 except SystemExit:
-    print('The test exited with a SystemExit')
+    None
